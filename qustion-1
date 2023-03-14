@@ -1,0 +1,28 @@
+write a blog on the difference between document & window object?
+
+answer:
+
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects that can be manipulated using programming languages like JavaScript.
+
+On the other hand, the Window object represents an open window in a browser. It is the top-level object in the browser's JavaScript hierarchy and is the primary interface between the browser and the web page.
+
+While both the Document and Window objects are critical components of a web page, they have some significant differences.
+
+Relationship with the Browser
+The Window object is responsible for managing the browser window that displays the web page. It provides access to the browser's functions, such as opening new windows, navigating to new pages, and accessing the browser's history.
+
+In contrast, the Document object represents the web page itself. It contains all the HTML, CSS, and JavaScript code that makes up the page's structure, style, and behavior.
+
+Access to Page Elements
+One of the primary roles of the Document object is to provide access to the web page's elements, such as forms, buttons, and images. Using the DOM, JavaScript code can access, modify, and create these elements dynamically.
+
+The Window object, on the other hand, provides access to the browser's functions, such as alert boxes, pop-up windows, and navigation buttons.
+
+Properties and Methods
+Both the Document and Window objects have their own set of properties and methods that can be accessed and manipulated using JavaScript.
+
+For example, the Document object has properties like "title," "URL," and "referrer," which provide information about the page. It also has methods like "getElementById" and "getElementsByClassName," which allow JavaScript code to locate and manipulate specific elements on the page.
+
+The Window object, on the other hand, has properties like "innerWidth" and "innerHeight," which provide information about the dimensions of the browser window. It also has methods like "open" and "close," which allow JavaScript code to manipulate the browser window directly.
+
+In conclusion, both the Document and Window objects play critical roles in creating and managing web pages. While the Document object represents the web page's structure, style, and content, the Window object manages the browser window and provides access to its functions. Understanding the differences between these two objects is essential for creating dynamic, interactive web pages using JavaScript and the DOM.
